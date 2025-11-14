@@ -1,0 +1,63 @@
+// Services data
+export const services = [
+  {
+    id: 1,
+    title: 'Local City Rides',
+    description: 'Comfortable rides within Bellary city for daily commute, shopping, and local errands.',
+    features: [
+      'Clean and well-maintained vehicles',
+      'Professional and courteous drivers',
+      'Meter-based fare system',
+      'GPS tracking for safety',
+      'Multiple payment options',
+    ],
+    image: '/taxis/sedan.jpg',
+    price: '₹12/km',
+    duration: 'per km',
+  },
+  {
+    id: 2,
+    title: 'Outstation Trips',
+    description: 'Long-distance travel to nearby cities like Hospet, Hampi, and other destinations.',
+    features: [
+      'Comfortable vehicles for long journeys',
+      'Experienced long-route drivers',
+      'Flexible scheduling',
+      ' Competitive outstation rates',
+      'Airport and railway station pickups',
+    ],
+    image: '/taxis/suv.jpg',
+    price: '₹10/km',
+    duration: 'per km',
+  },
+  {
+    id: 3,
+    title: 'Airport Transfers',
+    description: 'Reliable transfers to and from Bellary Airport with punctual service.',
+    features: [
+      'Flight tracking for timely pickups',
+      'Meet and greet service available',
+      'Luggage assistance',
+      'Real-time tracking',
+      'Fixed airport rates',
+    ],
+    image: '/taxis/tempo.jpg',
+    price: 'Fixed',
+    duration: 'package',
+  },
+  {
+    id: 4,
+    title: 'Wedding & Events',
+    description: 'Special packages for wedding ceremonies, parties, and special events.',
+    features: [
+      'Decorative vehicles available',
+      'Professional event coordination',
+      'Flexible timing',
+      'Group transportation options',
+      'Custom packages available',
+    ],
+    image: '/taxis/sedan.jpg',
+    price: 'Custom',
+    duration: 'quote',
+  },
+];
